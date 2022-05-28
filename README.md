@@ -2,11 +2,16 @@
 
 Climate change is a pressing issue around the globe that has differential impacts on individuals based on where they live and their financial status. In this assignment, you will build an interactive Shiny application exploring CO2 emissions data compiled by Our World In Data. You will need to create all of the necessary files for your work (e.g., `app.R`, `ui.R`, `server.R`).
 
-Shiny App: [LINK TO YOUR SHINY APP HERE]
+Shiny App: 
+library(rsconnect)
+rsconnect::setAccountInfo(name='sirak1234',
+			  token='0C9DBD83A7BEF991AD2563CE2107DC64',
+			  secret='akCvAZ2GqNaHBe6UBk4ztTe91cPeZEpzzFrdp7Do')
 
 ## Data
 
 The data, which you will load from this [GitHub repository](https://github.com/owid/co2-data/) (specifically the [owid-co2-data.csv](https://github.com/owid/co2-data/) file). A few hints on working with it:
+
 
 - Read the documentation: See the GitHub Repository to view the "Codebook" that explains the meaning of each variable. You'll need to understand what each variable represents, so read carefully!
 - Beware of missing values: You don't need to worry about "imputing" these, but when choosing what to visualize, you will want to focus on a particular location and/or year that has sufficient data (note, this varies across the variables)
