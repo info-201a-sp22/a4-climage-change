@@ -87,13 +87,14 @@ Introduction_panel <- tabPanel("Introduction", p("Climate Change is one of the l
 contributed to this threat on our planet. Fossil fuels, coal, oil, gas are all resources we rely on that damage our planet. The data that we have here show 
 the level of carbon dioxide produced by different countries and continents around the world. This data also shows how much the levels of carbon dioxide have increased year 
 to year. Looking at the data presented can show which areas of the world are contributing most to global warming. It can help us understand where the majority of the issue exists.
+This data has been collected, aggregated, and documented by Hannah Ritchie, Max Roser, Edouard Mathieu, Bobbie Macdonald and Pablo Rosado from the our world mission group.
+To add, the data was collected by reputable sources such as the UNWPP, the United world population prospects. The motivation behind the groups research was CO2 emissions, 
+other greenhouse gas emissions, energy mix, as well as other variables of potential interest. Limitations may include of lack of specific data, as well as leaving specific variables out
+of the question.
+
                                                  
 For this project  I will be focusing mainly on the Annual production of carbon dioxide (CO2) for nations around the world. 
-We can see how much the United States, contributed to Co2 levels in", round(America, digits = 2),". If we want see how much Co2 the world produced, the data shows that it is", 
-                                                 round(World_2019, digits = 2),". We can compare these two numbers to see the percentage of world emissions that came from the US which is", round(US_Contribution, digits = 2), ". 
-This is an important number because it shows us that this country has some work to do to lower its carbon emissions in comparison to other countries. We can see which region 
-of the world contributed most to climate change by looking at the data which shows it is", Co2_2019, ". We can see what percentage of emissions of world emmissions that came 
-from Asian countries ", round(Asia_contribution, digits = 2),"."
+We can see how much the Green house gases, contributed to Co2 levels in specific countries, big and small, and how the mean greenhouse emissions numbers relate to one another.
 ))
 
 
